@@ -17,6 +17,9 @@ and open the template in the editor.
         $arr=["PHP","HTML","JAVA","JAVASCRIPT"];
         
         print_r($arr);
+        foreach ($arr as $key => $value) {
+         echo $key." = ".$value."<hr>";    
+        }
         ?>
     </body>
 </html>
